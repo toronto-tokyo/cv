@@ -1,5 +1,7 @@
+import RootLayout from '../Layouts/RootLayout';
+
 function App() {
-  return <p className="text-9xl">test</p>;
+  return <RootLayout />;
 }
 
 export default App;
