@@ -1,5 +1,5 @@
 import React from 'react';
-import ContentWrapper from '../ContentWrapper';
+import ContentWrapper from 'components/ContentWrapper';
 import { IMainProps } from './Main.interface';
 
 const Main: React.FC<IMainProps> = ({ children }) => {

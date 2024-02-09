@@ -1,5 +1,5 @@
 import React from 'react';
-import ContentWrapper from '../ContentWrapper';
+import ContentWrapper from 'components/ContentWrapper';
 
 const Footer: React.FC = () => {
   return (

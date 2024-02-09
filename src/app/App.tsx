@@ -1,4 +1,4 @@
-import RootLayout from '../Layouts/RootLayout';
+import RootLayout from 'layouts/RootLayout';
 
 function App() {
   return <RootLayout />;
