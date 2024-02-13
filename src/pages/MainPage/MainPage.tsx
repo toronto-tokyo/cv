@@ -20,6 +20,10 @@ const MainPage: React.FC = () => {
         </div>
         <div />
       </div>
+      <section>
+        <h2>About Me</h2>
+        <p>{TEXT_DATA.aboutMe}</p>
+      </section>
     </div>
   );
 };
