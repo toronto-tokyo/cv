@@ -85,6 +85,24 @@ const TEXT_DATA = {
       data: 'Testing Library',
     },
   ],
+  tools: [
+    {
+      key: 'trello',
+      data: 'Trello',
+    },
+    {
+      key: 'webpack',
+      data: 'Webpack',
+    },
+    {
+      key: 'vite',
+      data: 'Vite',
+    },
+    {
+      key: 'vsCode',
+      data: 'VS Code',
+    },
+  ],
 };
 
 export default TEXT_DATA;
