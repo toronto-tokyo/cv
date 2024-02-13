@@ -1,4 +1,5 @@
 import ContactsList from 'components/ContactsList/ContactsList';
+import LanguagesList from 'components/LanguagesList';
 import React from 'react';
 import TEXT_DATA from 'shared/text-data';
 
@@ -24,6 +25,15 @@ const MainPage: React.FC = () => {
         <h2>About Me</h2>
         <p>{TEXT_DATA.aboutMe}</p>
       </section>
+      <div className="flex gap-5">
+        <section className="grow">
+          <h2>Skills</h2>
+        </section>
+        <section>
+          <h2>Languages</h2>
+          <LanguagesList languages={TEXT_DATA.languages} />
+        </section>
+      </div>
     </div>
   );
 };
