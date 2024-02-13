@@ -2,6 +2,7 @@ import ContactsList from 'components/ContactsList/ContactsList';
 import LanguagesList from 'components/LanguagesList';
 import SkillsList from 'components/SkillsList';
 import ToolsList from 'components/ToolsList';
+import WorkExpList from 'components/WorkExpList';
 import React from 'react';
 import TEXT_DATA from 'shared/text-data';
 
@@ -41,6 +42,10 @@ const MainPage: React.FC = () => {
           <LanguagesList languages={TEXT_DATA.languages} />
         </section>
       </div>
+      <section>
+        <h2>Work Experience</h2>
+        <WorkExpList workExpList={TEXT_DATA.workExperience} />
+      </section>
     </div>
   );
 };

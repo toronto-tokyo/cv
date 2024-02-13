@@ -103,6 +103,34 @@ const TEXT_DATA = {
       data: 'VS Code',
     },
   ],
+  workExperience: [
+    {
+      key: 'hilti',
+      position: 'Logistics Assistant',
+      period: {
+        from: '10/2020',
+        to: '07/2021',
+      },
+      organization: {
+        label: 'HILTI',
+        link: 'https://www.hilti.by/',
+      },
+      place: 'Minsk',
+    },
+    {
+      key: 'aps',
+      position: 'Transport Specialist',
+      period: {
+        from: '07/2021',
+        to: '09/2022',
+      },
+      organization: {
+        label: 'APS',
+        link: 'https://www.aps-solver.com/',
+      },
+      place: 'Minsk',
+    },
+  ],
 };
 
 export default TEXT_DATA;
