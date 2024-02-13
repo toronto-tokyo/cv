@@ -1,10 +1,19 @@
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 
+const cherryPickedKeys = [
+  "REACT_APP_PUBLIC_URL",
+];
+
 // https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  resolve: {
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '');
+  return {
+    define: {
+      'process.env.REACT_APP_PUBLIC_URL': JSON.stringify(env.REACT_APP_PUBLIC_URL)
+    },
+    plugins: [react()],
+    resolve: {
     alias: {
       app: '/src/app',
       assets: '/src/assets',
@@ -23,4 +32,5 @@ export default defineConfig({
       utils: '/src/utils',
     },
   },
+  }
 })
