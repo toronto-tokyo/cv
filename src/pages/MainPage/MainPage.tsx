@@ -1,5 +1,6 @@
 import ContactsList from 'components/ContactsList/ContactsList';
 import LanguagesList from 'components/LanguagesList';
+import SkillsList from 'components/SkillsList';
 import React from 'react';
 import TEXT_DATA from 'shared/text-data';
 
@@ -28,6 +29,7 @@ const MainPage: React.FC = () => {
       <div className="flex gap-5">
         <section className="grow">
           <h2>Skills</h2>
+          <SkillsList skillsList={TEXT_DATA.skills} />
         </section>
         <section>
           <h2>Languages</h2>

@@ -39,6 +39,52 @@ const TEXT_DATA = {
       data: 'Starter',
     },
   },
+  skills: [
+    {
+      key: 'html',
+      data: 'HTML5',
+    },
+    {
+      key: 'css',
+      data: 'CSS3',
+    },
+    {
+      key: 'scss',
+      data: 'SCSS',
+    },
+    {
+      key: 'tailwind',
+      data: 'Tailwind CSS',
+    },
+    {
+      key: 'javaScript',
+      data: 'JavaScript',
+    },
+    {
+      key: 'typeScript',
+      data: 'TypeScript',
+    },
+    {
+      key: 'react',
+      data: 'React',
+    },
+    {
+      key: 'rtk',
+      data: 'React Toolkit',
+    },
+    {
+      key: 'next',
+      data: 'Next',
+    },
+    {
+      key: 'git',
+      data: 'GIT',
+    },
+    {
+      key: 'testingLibrary',
+      data: 'Testing Library',
+    },
+  ],
 };
 
 export default TEXT_DATA;
