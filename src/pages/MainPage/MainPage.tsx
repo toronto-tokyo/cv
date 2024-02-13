@@ -1,4 +1,5 @@
 import ContactsList from 'components/ContactsList/ContactsList';
+import EducationLIst from 'components/EducationLIst';
 import LanguagesList from 'components/LanguagesList';
 import SkillsList from 'components/SkillsList';
 import ToolsList from 'components/ToolsList';
@@ -45,6 +46,10 @@ const MainPage: React.FC = () => {
       <section>
         <h2>Work Experience</h2>
         <WorkExpList workExpList={TEXT_DATA.workExperience} />
+      </section>
+      <section>
+        <h2>Education</h2>
+        <EducationLIst educationList={TEXT_DATA.education} />
       </section>
     </div>
   );

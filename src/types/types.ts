@@ -15,3 +15,16 @@ interface IWorkExpOrganization {
   label: string;
   link: string;
 }
+
+export interface IEducationData {
+  key: string;
+  profession: string;
+  school: ISchool;
+  place: string;
+  description: string;
+}
+
+interface ISchool {
+  label: string;
+  link: string;
+}

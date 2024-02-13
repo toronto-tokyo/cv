@@ -131,6 +131,29 @@ const TEXT_DATA = {
       place: 'Minsk',
     },
   ],
+  education: [
+    {
+      key: 'bseu',
+      profession: 'Logistics economist',
+      school: {
+        label: 'Belarusian State Economic University',
+        link: 'http://bseu.by/english/',
+      },
+      place: 'Minsk',
+      description: 'Studied at the university as a logistics economist.',
+    },
+    {
+      key: 'rss',
+      profession: 'Front-end Developer',
+      school: {
+        label: 'Rolling Scopes School',
+        link: 'https://rs.school/',
+      },
+      place: 'Minsk',
+      description:
+        'During my studies I gradually learnt front-end technologies from html to react, reinforcing my knowledge by writing various projects. In the last stages of the course, I worked in a team under the guidance of a mentor on writing final projects. ',
+    },
+  ],
 };
 
 export default TEXT_DATA;
