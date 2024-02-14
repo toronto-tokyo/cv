@@ -19,12 +19,25 @@ interface IWorkExpOrganization {
 export interface IEducationData {
   key: string;
   profession: string;
-  school: ISchool;
+  organization: IOrganization;
   place: string;
   description: string;
 }
 
+interface IOrganization {
+  label: string;
+  link: string;
+}
+
+export interface ICertificateData {
+  key: string;
+  cerfLink: string;
+  title: string;
+  school: ISchool;
+}
+
 interface ISchool {
+  img: string;
   label: string;
   link: string;
 }

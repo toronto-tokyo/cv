@@ -2,8 +2,8 @@ import React from 'react';
 import IEducationItemProps from './EducationItem.interface';
 
 const EducationItem: React.FC<IEducationItemProps> = ({ educationItem }) => {
-  const { description, school, profession, place } = educationItem;
-  const { label, link } = school;
+  const { description, organization, profession, place } = educationItem;
+  const { label, link } = organization;
   return (
     <article>
       <h3>{profession}</h3>

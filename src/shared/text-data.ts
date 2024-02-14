@@ -135,7 +135,7 @@ const TEXT_DATA = {
     {
       key: 'bseu',
       profession: 'Logistics economist',
-      school: {
+      organization: {
         label: 'Belarusian State Economic University',
         link: 'http://bseu.by/english/',
       },
@@ -145,13 +145,46 @@ const TEXT_DATA = {
     {
       key: 'rss',
       profession: 'Front-end Developer',
-      school: {
+      organization: {
         label: 'Rolling Scopes School',
         link: 'https://rs.school/',
       },
       place: 'Minsk',
       description:
         'During my studies I gradually learnt front-end technologies from html to react, reinforcing my knowledge by writing various projects. In the last stages of the course, I worked in a team under the guidance of a mentor on writing final projects. ',
+    },
+  ],
+  certificates: [
+    {
+      key: 'rss-fe',
+      cerfLink: 'https://app.rs.school/certificate/zrky512h',
+      title: 'JavaScript',
+      school: {
+        img: `${process.env.REACT_APP_PUBLIC_URL}/images/logo-rs.svg`,
+        label: 'Rolling Scopes School',
+        link: 'https://rs.school/',
+      },
+    },
+    {
+      key: 'rss-react',
+      cerfLink: 'https://app.rs.school/certificate/aiujqcje',
+      title: 'React',
+      school: {
+        img: `${process.env.REACT_APP_PUBLIC_URL}/images/logo-rs.svg`,
+        label: 'Rolling Scopes School',
+        link: 'https://rs.school/',
+      },
+    },
+    {
+      key: 'str-intermediate',
+      cerfLink:
+        'https://cert.str.by/streamline-certificate/F2F8C90AE528A720FEE4A08AC82A87E2',
+      title: 'English B1',
+      school: {
+        img: `${process.env.REACT_APP_PUBLIC_URL}/images/logo-streamline.png`,
+        label: 'Streamline - language school',
+        link: 'https://str.by/',
+      },
     },
   ],
 };
