@@ -187,6 +187,118 @@ const TEXT_DATA = {
       },
     },
   ],
+  projects: [
+    {
+      key: 'qraphQL-playground',
+      name: {
+        link: 'https://toronto-tokyo-graphql.netlify.app/',
+        label: 'QraphQL Playground',
+      },
+      description: [
+        'GraphQL is a playground/IDE for graphQL requests, that works with a user-specified open GraphQL endpoint(should support CORS).',
+        'I ran this project on team lead position in team of 3 developers. Mainly responsible for meeting deadlines, allocating subtasks to developers, conducting scrum planning and sprint retrospective meets.',
+      ],
+      pullRequest: {
+        link: 'https://github.com/mir-org/graphiql-app/pull/12',
+        label: 'Pull Request',
+      },
+      deploy: {
+        link: 'https://toronto-tokyo-graphql.netlify.app/',
+        label: 'Deploy',
+      },
+      skills: [
+        'Team work',
+        'React',
+        'Redux Toolkit',
+        'TypeScript',
+        'Testing Library',
+      ],
+    },
+    {
+      key: 'e-commerce-pureJS',
+      name: {
+        link: 'https://mir-org.github.io/eCommerce-Application/#',
+        label: 'E-commerce with pure JavaScript',
+      },
+      description: [
+        'This platform replicates real-world shopping experiences in a digital environment. It is a comprehensive online shopping portal that provides an interactive and seamless experience to users from product discovery to checkout, including: user authorization(registration, login, user profile page), product searching, products filtering and sorting, cart functionality',
+      ],
+      pullRequest: {
+        link: 'https://github.com/mir-org/eCommerce-Application/pull/5',
+        label: 'Pull Request',
+      },
+      deploy: {
+        link: 'https://mir-org.github.io/eCommerce-Application/#',
+        label: 'Deploy',
+      },
+      skills: [
+        'Team work',
+        'TypeScript',
+        'JavaScript Classes',
+        'CommerceTools',
+        'Jest',
+      ],
+    },
+    {
+      key: 'e-commerce-reactJS',
+      name: {
+        link: 'https://toronto-tokyo-closet.netlify.app/',
+        label: 'E-commerce with React - In Development',
+      },
+      description: [
+        'This platform replicates real-world shopping experiences in a digital environment. It is a comprehensive online shopping portal that provides an interactive and seamless experience to users from product discovery to checkout, including: user authorization(registration, login, user profile page), product searching, products filtering and sorting, cart functionality',
+      ],
+      pullRequest: {
+        link: 'https://github.com/toronto-tokyo/e-commerce-react/pull/5',
+        label: 'Pull Request',
+      },
+      deploy: {
+        link: 'https://toronto-tokyo-closet.netlify.app/',
+        label: 'Deploy',
+      },
+      skills: [
+        'React',
+        'Redux Toolkit',
+        'TypeScript',
+        'Tailwind',
+        'CommerceTools',
+      ],
+    },
+    {
+      key: 'rss-css-selectors',
+      name: {
+        link: 'https://rolling-scopes-school.github.io/toronto-tokyo-JSFE2023Q1/RSS-CSS-Selectors/',
+        label: 'CSS Selectors',
+      },
+      description: ['I is a fun game to learn and practice CSS selectors.'],
+      pullRequest: {
+        link: 'https://github.com/toronto-tokyo/RSS-CSS-Selectors/pull/2',
+        label: 'Pull Request',
+      },
+      deploy: {
+        link: 'https://rolling-scopes-school.github.io/toronto-tokyo-JSFE2023Q1/RSS-CSS-Selectors/',
+        label: 'Deploy',
+      },
+      skills: ['TypeScript', 'JavaScript Classes', 'CSS', 'Webpack'],
+    },
+    {
+      key: 'minesweeper',
+      name: {
+        link: 'https://rolling-scopes-school.github.io/toronto-tokyo-JSFE2023Q1/minesweeper/',
+        label: 'Minesweeper',
+      },
+      description: ['Copy of minesweeper game'],
+      pullRequest: {
+        link: 'https://github.com/toronto-tokyo/minesweeper/pull/1',
+        label: 'Pull Request',
+      },
+      deploy: {
+        link: 'https://rolling-scopes-school.github.io/toronto-tokyo-JSFE2023Q1/minesweeper/',
+        label: 'Deploy',
+      },
+      skills: ['JavaScript Classes', 'SCSS', 'Webpack'],
+    },
+  ],
 };
 
 export default TEXT_DATA;

@@ -41,3 +41,27 @@ interface ISchool {
   label: string;
   link: string;
 }
+
+export interface IProjectData {
+  key: string;
+  name: IProjectName;
+  description: string[];
+  pullRequest: IProjectPullRequest;
+  deploy: IProjectDeploy;
+  skills: string[];
+}
+
+interface IProjectName {
+  link: string;
+  label: string;
+}
+
+interface IProjectPullRequest {
+  link: string;
+  label: string;
+}
+
+interface IProjectDeploy {
+  link: string;
+  label: string;
+}

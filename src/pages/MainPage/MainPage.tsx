@@ -2,6 +2,7 @@ import CertificatesList from 'components/CertificatesList/CertificatesList';
 import ContactsList from 'components/ContactsList/ContactsList';
 import EducationLIst from 'components/EducationLIst';
 import LanguagesList from 'components/LanguagesList';
+import ProjectsList from 'components/ProjectsList';
 import SkillsList from 'components/SkillsList';
 import ToolsList from 'components/ToolsList';
 import WorkExpList from 'components/WorkExpList';
@@ -55,6 +56,10 @@ const MainPage: React.FC = () => {
       <section>
         <h2>Certificates</h2>
         <CertificatesList certificatesList={TEXT_DATA.certificates} />
+      </section>
+      <section>
+        <h2>Projects</h2>
+        <ProjectsList projectsList={TEXT_DATA.projects} />
       </section>
     </div>
   );
