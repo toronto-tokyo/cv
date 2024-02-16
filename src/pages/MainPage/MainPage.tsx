@@ -11,54 +11,68 @@ import TEXT_DATA from 'shared/text-data';
 
 const MainPage: React.FC = () => {
   return (
-    <div className="grow">
+    <div className="grow p-5 bg-white">
       <div className="flex gap-5">
-        <div className="relative pb-[25%] basis-1/4 rounded-lg overflow-hidden">
+        <div className="relative pb-[30%] basis-[30%] rounded-lg overflow-hidden">
           <img
             className="absolute top-0 left-0 size-full object-cover"
             src={`${process.env.REACT_APP_PUBLIC_URL}/images/cv-avatar.jpg`}
             alt="Minchuk Ilya"
           />
         </div>
-        <div className="grow">
-          <h1>{TEXT_DATA.fullName}</h1>
-          <p>{TEXT_DATA.position}</p>
+        <div className="grow flex flex-col gap-3">
+          <h1 className="font-bold text-6xl">{TEXT_DATA.fullName}</h1>
+          <p className="text-3xl text-gray-500 mb-2">{TEXT_DATA.position}</p>
           <ContactsList contactsData={TEXT_DATA.contacts} />
         </div>
         <div />
       </div>
-      <section>
-        <h2>About Me</h2>
-        <p>{TEXT_DATA.aboutMe}</p>
+      <section className="py-5">
+        <h2 className="text-3xl font-semibold border-b-2 pb-1 mb-5">
+          About Me
+        </h2>
+        <p className="text-xl text-justify">{TEXT_DATA.aboutMe}</p>
       </section>
       <div className="flex gap-5 justify-between">
         <section>
-          <h2>Skills</h2>
+          <h2 className="text-3xl font-semibold border-b-2 pb-1 mb-5">
+            Skills
+          </h2>
           <SkillsList skillsList={TEXT_DATA.skills} />
         </section>
         <section>
-          <h2>Tools</h2>
+          <h2 className="text-3xl font-semibold border-b-2 pb-1 mb-5">Tools</h2>
           <ToolsList toolsList={TEXT_DATA.tools} />
         </section>
         <section>
-          <h2>Languages</h2>
+          <h2 className="text-3xl font-semibold border-b-2 pb-1 mb-5">
+            Languages
+          </h2>
           <LanguagesList languages={TEXT_DATA.languages} />
         </section>
       </div>
-      <section>
-        <h2>Work Experience</h2>
+      <section className="py-5">
+        <h2 className="text-3xl font-semibold border-b-2 pb-1 mb-5">
+          Work Experience
+        </h2>
         <WorkExpList workExpList={TEXT_DATA.workExperience} />
       </section>
-      <section>
-        <h2>Education</h2>
+      <section className="py-5">
+        <h2 className="text-3xl font-semibold border-b-2 pb-1 mb-5">
+          Education
+        </h2>
         <EducationLIst educationList={TEXT_DATA.education} />
       </section>
-      <section>
-        <h2>Certificates</h2>
+      <section className="py-5">
+        <h2 className="text-3xl font-semibold border-b-2 pb-1 mb-5">
+          Certificates
+        </h2>
         <CertificatesList certificatesList={TEXT_DATA.certificates} />
       </section>
-      <section>
-        <h2>Projects</h2>
+      <section className="py-5">
+        <h2 className="text-3xl font-semibold border-b-2 pb-1 mb-5">
+          Projects
+        </h2>
         <ProjectsList projectsList={TEXT_DATA.projects} />
       </section>
     </div>

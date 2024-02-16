@@ -8,21 +8,27 @@ const CertificateItem: React.FC<ICertificateItemProps> = ({
   const { img, label, link } = school;
 
   return (
-    <article className="border">
+    <article className="border rounded w-52">
       <a
         href={cerfLink}
         target="_blanc"
         rel="noreferrer"
-        className="flex flex-col items-center"
+        className="flex flex-col gap-3 items-center p-4"
       >
-        <div className="relative pb-[30%] w-full">
+        <div className="relative pb-[50%] w-full">
           <img
             src={img}
             className="absolute top-0 left-0 size-full object-contain"
           />
         </div>
-        <p>{title}</p>
-        <a href={link} target="_blanc" rel="noreferrer">
+        <h3 className="font-semibold text-xl">{title}</h3>
+        <a
+          href={link}
+          target="_blanc"
+          rel="noreferrer"
+          className="border rounded px-2 py-1 w-full text-center"
+          onClick={(e) => e.stopPropagation()}
+        >
           {label}
         </a>
       </a>
