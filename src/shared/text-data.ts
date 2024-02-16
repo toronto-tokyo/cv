@@ -182,7 +182,7 @@ const TEXT_DATA = {
       title: 'English B1',
       school: {
         img: `${process.env.REACT_APP_PUBLIC_URL}/images/logo-streamline.png`,
-        label: 'Streamline - language school',
+        label: 'Streamline',
         link: 'https://str.by/',
       },
     },
@@ -270,7 +270,7 @@ const TEXT_DATA = {
         link: 'https://rolling-scopes-school.github.io/toronto-tokyo-JSFE2023Q1/RSS-CSS-Selectors/',
         label: 'CSS Selectors',
       },
-      description: ['I is a fun game to learn and practice CSS selectors.'],
+      description: ['It is a fun game to learn and practice CSS selectors.'],
       pullRequest: {
         link: 'https://github.com/toronto-tokyo/RSS-CSS-Selectors/pull/2',
         label: 'Pull Request',
