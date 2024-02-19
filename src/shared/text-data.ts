@@ -99,6 +99,18 @@ const TEXT_DATA = {
       data: 'Vite',
     },
     {
+      key: 'eslint',
+      data: 'ESLint',
+    },
+    {
+      key: 'prettier',
+      data: 'Prettier',
+    },
+    {
+      key: 'husky',
+      data: 'Husky',
+    },
+    {
       key: 'vsCode',
       data: 'VS Code',
     },
