@@ -7,7 +7,7 @@ const ToolsList: React.FC<IToolsListProps> = ({ toolsList }) => {
   const { toolsIcons } = useToolsList();
 
   return (
-    <ul>
+    <ul className="grid grid-cols-2 gap-x-3 gap-y-1">
       {toolsList.map((toolsItem) => (
         <ToolsItem
           key={toolsItem.key}
