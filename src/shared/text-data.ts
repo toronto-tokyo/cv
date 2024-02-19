@@ -299,6 +299,7 @@ const TEXT_DATA = {
       skills: ['JavaScript Classes', 'SCSS', 'Webpack'],
     },
   ],
+  yearOfCreation: '2024',
 };
 
 export default TEXT_DATA;
