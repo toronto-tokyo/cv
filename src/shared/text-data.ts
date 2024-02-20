@@ -208,7 +208,7 @@ const TEXT_DATA = {
       },
       description: [
         'GraphQL is a playground/IDE for graphQL requests, that works with a user-specified open GraphQL endpoint(should support CORS).',
-        'I ran this project on team lead position in team of 3 developers. Mainly responsible for meeting deadlines, allocating subtasks to developers, conducting scrum planning and sprint retrospective meets.',
+        'I ran this project on team lead position in team of 3 developers. In addition to development, I was responsible for meeting deadlines, allocating subtasks to developers, conducting scrum planning and sprint retrospective meets.',
       ],
       pullRequest: {
         link: 'https://github.com/mir-org/graphiql-app/pull/12',
