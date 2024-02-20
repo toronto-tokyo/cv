@@ -247,6 +247,7 @@ const TEXT_DATA = {
         'Team work',
         'TypeScript',
         'JavaScript Classes',
+        'SCSS',
         'CommerceTools',
         'Jest',
       ],
