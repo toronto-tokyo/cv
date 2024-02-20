@@ -8,7 +8,7 @@ const CertificateItem: React.FC<ICertificateItemProps> = ({
   const { img, label, link } = school;
 
   return (
-    <article className="border rounded w-52">
+    <article className="shadow-md transition-all hover:scale-105 rounded sm:w-52">
       <a
         href={cerfLink}
         target="_blanc"
@@ -26,7 +26,7 @@ const CertificateItem: React.FC<ICertificateItemProps> = ({
           href={link}
           target="_blanc"
           rel="noreferrer"
-          className="border rounded px-2 py-1 w-full text-center"
+          className="border hover:border-black rounded px-2 py-1 w-full text-center"
           onClick={(e) => e.stopPropagation()}
         >
           {label}

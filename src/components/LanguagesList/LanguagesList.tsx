@@ -6,7 +6,7 @@ import COUNTRY_CODES from 'shared/country-codes';
 
 const LanguagesList: React.FC<ILanguagesListProps> = ({ languages }) => {
   return (
-    <ul>
+    <ul className="grid grid-cols-languages sm:grid-cols-2 md:grid-cols-1 gap-x-3 gap-y-1">
       {Object.entries(languages).map(([key, languageData]) => (
         <LanguageItem
           icon={

@@ -7,7 +7,8 @@ const ContactsList: React.FC<IContactsListProps> = ({ contactsData }) => {
   const { contactsListIcons } = useContactsList();
 
   return (
-    <ul className="flex flex-col gap-1 text-xl text-indigo-800">
+    // <ul className="flex md:flex-col gap-1 text-xl text-indigo-800">
+    <ul className="grid grid-cols-contacts gap-1 text-xl text-indigo-800">
       {Object.entries(contactsData).map(([key, contactData]) => (
         <ContactsItem
           key={key}

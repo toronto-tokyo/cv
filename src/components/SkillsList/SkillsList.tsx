@@ -7,7 +7,7 @@ const SkillsList: React.FC<ISkillsListProps> = ({ skillsList }) => {
   const { skillsIcons } = useSkillsList();
 
   return (
-    <ul className="grid grid-cols-2 gap-x-2 gap-y-1">
+    <ul className="grid grid-cols-skills sm:grid-cols-2 gap-x-2 gap-y-1">
       {skillsList.map((skillItem) => (
         <SkillsItem
           key={skillItem.key}

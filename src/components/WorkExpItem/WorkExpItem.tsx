@@ -8,13 +8,15 @@ const WorkExpItem: React.FC<IWorkExpItemProps> = ({ workExpData }) => {
 
   return (
     <article className="pl-5 before:w-3 before:h-3 before:absolute before: top-0 before:left-0 before:rounded-full before:bg-amber-500 before:translate-x-[-50%] before:translate-y-full">
-      <h3 className="relative text-2xl font-semibold">{position}</h3>
+      <h3 className="relative print:text-xl text-2xl font-semibold">
+        {position}
+      </h3>
       <div className="flex gap-1 text-gray-500">
         <span>{from}</span>
         <span>&minus;</span>
         <span>{to}</span>
       </div>
-      <div className="text-xl flex gap-1">
+      <div className="text-xl print:text-lg flex gap-1">
         <a
           href={link}
           target="_blank"

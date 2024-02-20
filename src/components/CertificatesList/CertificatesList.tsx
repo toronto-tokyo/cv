@@ -6,7 +6,7 @@ const CertificatesList: React.FC<ICertificatesListProps> = ({
   certificatesList,
 }) => {
   return (
-    <div className="grid grid-cols-[minmax(300px,_1fr)_minmax(300px,_1fr)_minmax(300px,_1fr)] justify-items-center">
+    <div className="flex gap-5 justify-around flex-wrap">
       {certificatesList.map((certificateItem) => (
         <CertificateItem
           key={certificateItem.key}
