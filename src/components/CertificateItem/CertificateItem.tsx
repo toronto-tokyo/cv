@@ -8,7 +8,7 @@ const CertificateItem: React.FC<ICertificateItemProps> = ({
   const { img, label, link } = school;
 
   return (
-    <article className="shadow-md transition-all hover:scale-105 rounded sm:w-52">
+    <article className="shadow-md transition-all hover:scale-105 rounded w-60 md:w-52">
       <a
         href={cerfLink}
         target="_blanc"
