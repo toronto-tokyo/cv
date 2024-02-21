@@ -7,8 +7,8 @@ const TEXT_DATA = {
       label: 'cacatubutyt@gmail.com',
     },
     mobilePhone: {
-      href: 'tel:+48886898101',
-      label: '+48886898101',
+      href: 'tel:+48886696101',
+      label: '+48886696101',
     },
     gitHub: {
       href: 'https://github.com/toronto-tokyo',

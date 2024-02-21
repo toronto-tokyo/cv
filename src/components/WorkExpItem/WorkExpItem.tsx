@@ -1,5 +1,6 @@
 import React from 'react';
 import IWorkExpItemProps from './WorkExpItem.interface';
+import ContentOrderItem from 'components/ContentOrderItem';
 
 const WorkExpItem: React.FC<IWorkExpItemProps> = ({ workExpData }) => {
   const { position, period, organization, place } = workExpData;
@@ -7,7 +8,7 @@ const WorkExpItem: React.FC<IWorkExpItemProps> = ({ workExpData }) => {
   const { label, link } = organization;
 
   return (
-    <article className="pl-5 before:w-3 before:h-3 before:absolute before: top-0 before:left-0 before:rounded-full before:bg-amber-500 before:translate-x-[-50%] before:translate-y-full">
+    <ContentOrderItem>
       <h3 className="relative print:text-xl text-2xl font-semibold">
         {position}
       </h3>
@@ -28,7 +29,7 @@ const WorkExpItem: React.FC<IWorkExpItemProps> = ({ workExpData }) => {
         <span>&middot;</span>
         <span>{place}</span>
       </div>
-    </article>
+    </ContentOrderItem>
   );
 };
 
