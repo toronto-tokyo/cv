@@ -19,8 +19,9 @@ const TEXT_DATA = {
       label: 'Minchuk Ilya',
     },
   },
+  personalCV: 'Full CV with all projects: https://minchuk-ilya-cv.netlify.app/',
   aboutMe:
-    'I am impressed by the values and principles: confidence, reliability, professionalism, trust, maintaining an atmosphere of comfort, friendliness and mutual assistance. I believe that this approach guarantees success. If you need a specialist who is motivated to achieve results in work, ready to contribute to the prosperity of the company, I will be happy to become part of your team. I am sure that by gaining experience, I will be able to become an experienced employee who can benefit the company.',
+    'Hi! I am impressed by the values and principles: confidence, reliability, professionalism, trust, maintaining an atmosphere of comfort, friendliness and mutual assistance. I believe that this approach guarantees success. If you need a specialist who is motivated to achieve results in work, ready to contribute to the prosperity of the company, I will be happy to become part of your team. I am sure that by gaining experience, I will be able to become an experienced employee who can benefit the company.',
   languages: {
     en: {
       label: 'English',
@@ -71,10 +72,6 @@ const TEXT_DATA = {
     {
       key: 'rtk',
       data: 'React Toolkit',
-    },
-    {
-      key: 'next',
-      data: 'Next',
     },
     {
       key: 'git',
@@ -145,16 +142,6 @@ const TEXT_DATA = {
   ],
   education: [
     {
-      key: 'bseu',
-      profession: 'Logistics economist',
-      organization: {
-        label: 'Belarusian State Economic University',
-        link: 'http://bseu.by/english/',
-      },
-      place: 'Minsk',
-      description: 'Studied at the university as a logistics economist.',
-    },
-    {
       key: 'rss',
       profession: 'Front-end Developer',
       organization: {
@@ -163,7 +150,17 @@ const TEXT_DATA = {
       },
       place: 'Minsk',
       description:
-        'During my studies I gradually learnt front-end technologies from html to react, reinforcing my knowledge by writing various projects. In the last stages of the course, I worked in a team under the guidance of a mentor on writing final projects. ',
+        'I gradually learnt front-end technologies from html to react, reinforcing my knowledge by writing various projects. I worked in a team under the guidance of a mentor on writing final projects. ',
+    },
+    {
+      key: 'bseu',
+      profession: 'Logistics economist',
+      organization: {
+        label: 'Belarusian State Economic University',
+        link: 'http://bseu.by/english/',
+      },
+      place: 'Minsk',
+      description: 'Studied at the university as a logistics economist.',
     },
   ],
   certificates: [
@@ -220,9 +217,11 @@ const TEXT_DATA = {
       },
       skills: [
         'Team work',
+        'Team Lead',
         'React',
         'Redux Toolkit',
         'TypeScript',
+        'GraphQL',
         'Testing Library',
       ],
     },
@@ -233,7 +232,7 @@ const TEXT_DATA = {
         label: 'E-commerce with pure JavaScript',
       },
       description: [
-        'This platform replicates real-world shopping experiences in a digital environment. It is a comprehensive online shopping portal that provides an interactive and seamless experience to users from product discovery to checkout, including: user authorization(registration, login, user profile page), product searching, products filtering and sorting, cart functionality',
+        'It is a comprehensive online shopping portal that provides an interactive and seamless experience to users from product discovery to checkout, including: user authorization(registration, login, user profile page), product searching, products filtering and sorting, cart functionality',
       ],
       pullRequest: {
         link: 'https://github.com/mir-org/eCommerce-Application/pull/5',

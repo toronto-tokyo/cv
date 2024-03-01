@@ -6,7 +6,7 @@ import TEXT_DATA from 'shared/text-data';
 
 const ProjectsBlock: React.FC = () => {
   return (
-    <SectionBlock className="print:mt-16">
+    <SectionBlock>
       <H2>Projects</H2>
       <ProjectsList projectsList={TEXT_DATA.projects} />
     </SectionBlock>

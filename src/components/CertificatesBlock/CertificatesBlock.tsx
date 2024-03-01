@@ -6,7 +6,7 @@ import TEXT_DATA from 'shared/text-data';
 
 const CertificatesBlock: React.FC = () => {
   return (
-    <SectionBlock>
+    <SectionBlock className="print:hidden">
       <H2>Certificates</H2>
       <CertificatesList certificatesList={TEXT_DATA.certificates} />
     </SectionBlock>

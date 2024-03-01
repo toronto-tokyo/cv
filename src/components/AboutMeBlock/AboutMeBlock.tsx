@@ -7,7 +7,7 @@ const AboutMeBlock: React.FC = () => {
   return (
     <SectionBlock>
       <H2>About Me</H2>
-      <p className="print:text-lg text-xl text-justify">{TEXT_DATA.aboutMe}</p>
+      <p className="print:text-sm text-xl text-justify">{TEXT_DATA.aboutMe}</p>
     </SectionBlock>
   );
 };

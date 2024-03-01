@@ -13,8 +13,10 @@ const MainPage: React.FC = () => {
       <ContactsBlock />
       <AboutMeBlock />
       <SkillsBlock />
-      <WorkExpBlock />
-      <EducationBlock />
+      <div className="print:flex print:gap-10 print:justify-between">
+        <EducationBlock />
+        <WorkExpBlock />
+      </div>
       <CertificatesBlock />
       <ProjectsBlock />
     </div>
