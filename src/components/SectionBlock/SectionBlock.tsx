@@ -5,7 +5,11 @@ const SectionBlock: React.FC<ISectionBlockProps> = ({
   children,
   className,
 }) => {
-  return <section className={`py-5 ${className || ''}`}>{children}</section>;
+  return (
+    <section className={`py-5 ${className || ''} print:py-3`}>
+      {children}
+    </section>
+  );
 };
 
 export default SectionBlock;

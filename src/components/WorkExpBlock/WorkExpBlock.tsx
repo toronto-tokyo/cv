@@ -6,7 +6,7 @@ import TEXT_DATA from 'shared/text-data';
 
 const WorkExpBlock: React.FC = () => {
   return (
-    <SectionBlock>
+    <SectionBlock className="basis-1/3">
       <H2>Work Experience</H2>
       <WorkExpList workExpList={TEXT_DATA.workExperience} />
     </SectionBlock>

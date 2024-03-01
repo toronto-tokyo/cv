@@ -9,15 +9,15 @@ const WorkExpItem: React.FC<IWorkExpItemProps> = ({ workExpData }) => {
 
   return (
     <ContentOrderItem>
-      <h3 className="relative print:text-xl text-2xl font-semibold">
+      <h3 className="relative print:text-base text-2xl font-semibold">
         {position}
       </h3>
-      <div className="flex gap-1 text-gray-500">
+      <div className="flex gap-1 text-gray-500 print:text-sm">
         <span>{from}</span>
         <span>&minus;</span>
         <span>{to}</span>
       </div>
-      <div className="text-xl print:text-lg flex gap-1">
+      <div className="text-xl print:text-sm flex gap-1">
         <a
           href={link}
           target="_blank"

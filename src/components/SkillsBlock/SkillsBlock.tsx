@@ -7,7 +7,7 @@ import TEXT_DATA from 'shared/text-data';
 
 const SkillsBlock: React.FC = () => {
   return (
-    <section className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-around gap-10 text-lg">
+    <section className="flex flex-col sm:flex-row sm:flex-wrap sm:justify-around gap-10 text-lg print:text-sm">
       <article key="tech-stack">
         <H2>Tech stack</H2>
         <SkillsList skillsList={TEXT_DATA.skills} />

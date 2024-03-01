@@ -3,7 +3,7 @@ import IH2Props from './H2.interface';
 
 const H2: React.FC<IH2Props> = ({ children }) => {
   return (
-    <h2 className="print:text-2xl text-3xl font-semibold border-b-2 pb-1 mb-5">
+    <h2 className="print:text-base text-3xl font-semibold border-b-2 pb-1 mb-5 print:mb-1">
       {children}
     </h2>
   );
