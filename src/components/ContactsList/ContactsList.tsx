@@ -14,7 +14,7 @@ const ContactsList: React.FC<IContactsListProps> = ({ contactsData }) => {
     linkedin: <CiLinkedin />,
   };
   return (
-    <ul className="grid grid-cols-contacts gap-1 text-xl text-indigo-800 print:text-sm">
+    <ul className="grid grid-cols-contacts gap-1 text-xl text-indigo-800 print:text-sm print:grid-cols-contactsPrint ">
       {Object.entries(contactsData).map(([key, contactData]) => (
         <ContactsItem
           key={key}
