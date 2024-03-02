@@ -17,7 +17,7 @@ const ContactsBlock: React.FC = () => {
           <h1 className="font-bold text-5xl mb-2 sm:text-6xl print:text-xl print:mb-0">
             {TEXT_DATA.fullName}
           </h1>
-          <p className="print:text-base sm:text-3xl text-gray-500 mb-2 print:mb-0 print:text-black">
+          <p className="print:text-bas text-2xl sm:text-3xl text-gray-500 mb-2 print:mb-0 print:text-black">
             {TEXT_DATA.position}
           </p>
         </div>
