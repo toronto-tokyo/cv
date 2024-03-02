@@ -13,11 +13,11 @@ const ContactsBlock: React.FC = () => {
         />
       </div>
       <div className="grow flex flex-col gap-3">
-        <div className="print:flex print:gap-5 print:items-center">
+        <div className="print:flex print:gap-5 print:items-end">
           <h1 className="font-bold text-5xl sm:text-6xl print:text-xl">
             {TEXT_DATA.fullName}
           </h1>
-          <p className="print:text-base sm:text-3xl text-gray-500 mb-2 print:mb-0">
+          <p className="print:text-base sm:text-3xl text-gray-500 mb-2 print:mb-0 print:text-black">
             {TEXT_DATA.position}
           </p>
         </div>
